@@ -4,7 +4,7 @@ while(1):
     choice = int(input("\nEnter your choice (1-5): "))
 
     # Taking User Input only if choice is not equal to 5
-    if(choice != 5):
+    if(choice >=1 and choioce<= 5):
         num1 = int(input("Enter 1st Number: "))
         num2 = int(input("Enter 2nd Number: "))
     
